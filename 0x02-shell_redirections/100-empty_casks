@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -laR | find . -type d,f -empty
+echo -e "$(find . -mindepth 1 -type d,f -empty > ls -1) \n"
