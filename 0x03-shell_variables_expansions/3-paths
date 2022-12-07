@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | grep /*/*/* | ls | tr ":" | wc -l
+echo $PATH | grep /*/*/* | ls -l | wc ^d -l
